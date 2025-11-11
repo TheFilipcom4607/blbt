@@ -2,6 +2,8 @@
 
 A command-line utility to calculate the real-world gift card value of your Makerworld boosts across different regional stores.
 
+![alt text](https://assets.thefilip.com/blbt.jpg)
+
 ## Installation
 
 ```bash
