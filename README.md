@@ -3,7 +3,6 @@
 A fast and friendly command-line tool to calculate the **gift card value of your Makerworld boosts**,  
 using **live exchange rates** pulled automatically from public APIs.  
 
----
 
 ## ✨ Features
 
@@ -13,14 +12,13 @@ using **live exchange rates** pulled automatically from public APIs.
 ✅ Colorized CLI output for clarity  
 ✅ Fully open-source and MIT-licensed  
 
----
 
 ## 🚀 Installation
 
 ```bash
 pip install blbt
 ```
----
+
 
 ## 💻 Usage
 
@@ -36,7 +34,6 @@ blbt 12000 -r EU -c PLN
 | `blbt 12000 -r EU -c PLN --verbose` | Converts EU base rate to PLN with detailed breakdown |
 | `blbt 490 -us` | Uses the US store rate and shows results in USD |
 
----
 
 ## 🧩 Supported Regions
 
@@ -50,7 +47,7 @@ blbt 12000 -r EU -c PLN
 | AUD | AUD | `blbt 1k -r AUD` |
 | CNY | CNY | `blbt 1k -r CNY` |
 
----
+
 
 ## ⚙️ Developer Notes
 
@@ -66,10 +63,10 @@ The program automatically retrieves live rates from:
 
 and caches nothing (always fresh data).
 
----
+
 
 ## 🧠 License
 
 [MIT License](MIT) © 2025 thefilipcom4607
 
----
+
