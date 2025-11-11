@@ -132,20 +132,22 @@ Output: Value in Japanese Yen
 ```
 ==================================================
 💰 Makerworld Reward Calculation
-Store Region: AUSTRALIA | Output Currency: AUD
+Store Region: EU | Output Currency: EUR
 ==================================================
 --- Configuration ---
-Points per Card: 511
-Card Value: 65.00 AUD
+Points per Card: 524
+Card Value: 40.00 EUR
 ---------------------
 
-🎉 Final Value: 701.37 A$ from 5,500 boosts.
+🎉 Final Value: 160.00 € from 2,300 boosts (4 gift cards).
 ```
 
 ### Verbose Output
 Includes:
-- Value per boost calculation
-- Step-by-step conversion details
+- Total points/boosts count
+- Number of whole gift cards you can purchase
+- Remaining points toward next card (if any)
+- Step-by-step calculation breakdown
 - Exchange rate information (when applicable)
 
 ## Exchange Rates
@@ -158,10 +160,11 @@ Exchange rates are relative to EUR as the base currency. If both APIs are unavai
 
 ## How It Works
 
-1. **Points System**: Makerworld uses a points system where boosts can be exchanged for gift cards
+1. **Points System**: Makerworld uses a points system where boosts equal points (1 boost = 1 point)
 2. **Regional Rates**: Different stores have different point requirements and gift card values
-3. **Calculation**: BLBT calculates your total value based on the selected store's conversion rate
-4. **Currency Conversion**: When needed, live exchange rates convert between currencies
+3. **Whole Gift Cards Only**: BLBT uses integer division to calculate only the number of complete gift cards you can purchase (e.g., 2,300 points ÷ 524 = 4 gift cards, not 4.39)
+4. **Total Value Calculation**: Total value = number of whole gift cards × card value
+5. **Currency Conversion**: When needed, live exchange rates convert the final value between currencies
 
 ## Error Handling
 
@@ -188,7 +191,7 @@ Found a bug or have a feature request? Please open an issue on the GitHub reposi
 
 ## License
 
-MIT
+[Add your license here]
 
 ## Support
 
