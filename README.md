@@ -191,7 +191,7 @@ Found a bug or have a feature request? Please open an issue on the GitHub reposi
 
 ## License
 
-[Add your license here]
+MIT
 
 ## Support
 
